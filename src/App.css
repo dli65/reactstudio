@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.namebox{
+  margin: 1%;
+  padding: 0% 1% 0% 1%;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 15%;
+  border:2px  cadetblue;
+  border-radius: 25px;
+  background-color: lightblue;
+  justify-content: center;
+}
+
+.namebox p{
+  color: rgb(47, 85, 110);
+}
+
+header{
+padding: 1%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+form input{
+  width: 50%;
+  height: 30px;
+}
+form {
+  width: 100vw;
+}
